@@ -1,0 +1,100 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F1F8E9;
+  color: #2E7D32;
+}
+
+.header, .footer {
+  background: linear-gradient(90deg, #4CAF50, #81C784);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.header ul li {
+  margin: 0 15px;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(120deg, #4CAF50, #81C784);
+  color: white;
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, #4CAF50, #81C784);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.gradient-button:hover {
+  opacity: 0.9;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.page {
+  padding: 2rem;
+  background-color: #F1F8E9;
+  color: #2E7D32;
+  text-align: center;
+}
+
+.page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.division-item, .department-item, .faq-item h3 {
+  font-weight: 600;
+}
+
+.faq-item p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+}
